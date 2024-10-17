@@ -10,8 +10,7 @@ class firsttest2 {
         WebDriverManager.chromedriver().setup()
         val driver = ChromeDriver()
 
-        driver.get("")
-
+        driver.get("https://chatgpt.com/auth/login")
 
         driver.quit()
 
